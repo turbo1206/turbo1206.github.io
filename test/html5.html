@@ -15,9 +15,61 @@
         table {
             border-collapse: collapse;
         }
+        header, nav, section, aside, footer {
+            border:1px dotted black;
+        }
+
     </style>
 </head>
 <body>
+    <!-- HTML5레이아웃 구조 사용 된 태그
+    header, nav, section, article, aside, footer
+    -->
+    <style>
+        /* css: cascade style sheet 계층형 스타일 표 */
+        header, nav, section, aside, footer {
+            border:1px dotted black;
+        }
+         header > h1, footer > h1 { text-align: center; }
+         nav { display: block; height: 60px; }
+         nav > ul > li {
+             float:left; margin-right:20px;
+         }
+         div.contents {
+            /* 내부의 컨텐츠 기준되는 외부 요소에 관계형 포지션 추가 */
+            position: relative;
+         }
+         
+         section { width: 80%; display: inline-block; 
+         }
+         aside {
+              width: 20%; display: inline-block; height: 100%; position: absolute; 
+              }
+    </style>
+    <header>
+        <h1>header</h1>    
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#"></a>menu1</li>
+            <li><a href="#"></a>menu2</li>
+            <li><a href="#"></a>menu3</li>
+        </ul>
+    </nav>
+    <div class="contents">
+    <section>
+        <h1>section</h1>
+        <article>
+            <h1>article</h1>
+        </article>
+    </section>
+    <aside>
+        <h1>aside</h1>
+    </aside>
+    </div>
+    <footer>
+        <h1>footer</h1>
+    </footer>
     <!-- 테이블 태그제어: 셀병합
     table, tr(table row(줄)), td(table data(칸)) -->
     <table>
@@ -27,6 +79,11 @@
         <td>가격</td>
         <td>판매량</td>
         <td>판매액</td>
+        <th>순번</th>
+        <th>책이름</th>
+        <th>가격</th>
+        <th>판매량</th>
+        <th>판매액</th>
     </tr>
     <tr>
         <td>1</td>
@@ -48,6 +105,7 @@
         <!-- colspan 가로칸 병합 -->
         <td>14,000,000</td>
     </tr>
+    <table>
     <!--  html5 폼 태그 사용 엘리먼트:form태그,input태그 -->
     <!-- 액션-자료전송(메서드), radio(file), submit -->
     <form action="https://naver.com" method="GET">
