@@ -38,12 +38,19 @@
          div.contents {
             /* 내부의 컨텐츠 기준되는 외부 요소에 관계형 포지션 추가 */
             position: relative;
+            overflow: hidden;
          }
          
-         section { width: 80%; display: inline-block; 
+         section { width: 80%; display: inline-block;
+          
          }
+         section > article { margin: 10px 30px; 
+                             border: 1px solid skyblue;
+                           }
          aside {
-              width: 20%; display: inline-block; height: 100%; position: absolute; 
+              width: 20%; display: inline-block;
+              right : 0px;
+              height: 100%; position: absolute; 
               }
     </style>
     <header>
@@ -60,7 +67,10 @@
     <section>
         <h1>section</h1>
         <article>
-            <h1>article</h1>
+            <h1>article1</h1>
+        </article>
+        <article>
+            <h1>article2</h1>
         </article>
     </section>
     <aside>
@@ -79,11 +89,6 @@
         <td>가격</td>
         <td>판매량</td>
         <td>판매액</td>
-        <th>순번</th>
-        <th>책이름</th>
-        <th>가격</th>
-        <th>판매량</th>
-        <th>판매액</th>
     </tr>
     <tr>
         <td>1</td>
