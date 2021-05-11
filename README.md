@@ -8,6 +8,11 @@
 - 고유주소: yahoo.com(도메인) == 74.6.143.25(IP주소) == 주민번호
 - IP주소버전: IPv4, IPv6
 - HTML도 버전 : HTML5, HTML4.01(old)
+-
+-
+-
+-
+
 
 #### 20210510(월) 작업내역
 - git에서 'user.name' 및 'user.email'을 구성하라고 떠요!
