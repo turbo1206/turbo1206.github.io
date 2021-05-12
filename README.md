@@ -1,8 +1,11 @@
 #### 20210512(수) 작업내역
 -git clone으로 프로젝트를 가져온 경우 아래 내용을 추가해주셔야합니다.
 -터미널에서 아래 2가지 실행
-- git config --local user.name 닉네임
+- git config --list 확인에서 user.name, user.email 없으면 아래추가
+- 터미널에서 아래 2가지 실행
+- git config --local user.name 닉네
 - git config --local user.email 이메일
+-프로젝트를 1명 제작하는 경우 없기 때문에, 2명 이상 일 때 소스 수정한 사람 확인용 정보
 
 
 #### 20210511(화) 작업내역
