@@ -31,7 +31,18 @@
     .box-one p:after { content: ' +addadd'; } 
     .box-one P::before { content: 'add+ '; }
     a:hover { color: white;}
-    
+    /* 크기단위 font크기, img크기, 단위종류3가지: ~px, ~em(1.2배수), ~rem(root기반배수) */
+    .box-one { 
+        font-size: 8px;
+        /* 웹브라우저 기본 폰트크기는 16px*1.5 = 1.5em */
+        /* font-size: 1.5rem;           */
+        }
+        .box-one p {
+            /* 웹브라우저 기본폰트인 16px의 1.5배 아니고, 부모요소의 1.5배 (8px의 1.5배) */
+            font-size: 1.5em;
+            font-size: 1.5rem;
+            /* 위에서부터 해석하는 방식 인터프리터형=자바스크립트는 인터프리터형 언어 */
+        }    
 </style>
 <head>
 <body>
