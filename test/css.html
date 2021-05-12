@@ -21,11 +21,27 @@
        가상선택자: ::after ::before, :before
        가상요소(Element-가상태그): :hover 사용 예 a:hover
        a:hover
-       */
-        
+       */    
+    h1 { background-color: skyblue;}
+    div * {
+        color: green;
+    }
+    .box-one, .box-two { background-color: tomato;}
+    #box-four, #box-five { background-color: yellow;}
+    .box-one p:after { content: ' +addadd'; } 
+    .box-one P::before { content: 'add+ '; }
+    a:hover { color: white;}
+    
 </style>
 <head>
 <body>
+    <h1>핼로 CSS</h1>
+     <div class="box-one"><p>one</p></div>
+     <div class="box-two"><a href="#"> two two two</a></div>
+     <div class="box-three">three</div>
+     <div id="box-four">four</div>
+     <div id="box-five">five</div>
+
      <!-- 
         10 크롬 확장프로그램으로 컬러 피커 사용해보기 OK
         09 구글 폰트 사용하기: 나눔고딕체 사용 OK
@@ -39,6 +55,7 @@
         cascade style sheet 계층형 스타일 표 OK
         01 css 적용하는 3가지 방법 확인, 내부css, 외부css, 인라인css OK
      -->
+     
      <p><span style="color: tomato;">Lorem ipsum</span> dolor, sit amet consectetur adipisicing elit. Dignissimos placeat commodi porro officiis eveniet quasi similique delectus quos, unde laboriosam quo ipsam labore facilis eos tenetur velit distinctio sit impedit nostrum magni deserunt ratione consequuntur. Ipsa velit, hic obcaecati perferendis natus fuga quam voluptatum ratione. Delectus debitis consectetur voluptatem possimus fuga ipsam excepturi dolor consequuntur suscipit. Expedita, consectetur sint! Dignissimos quidem illum porro optio pariatur, excepturi quam, incidunt quo sit, magnam necessitatibus iste enim at. Deserunt dolorem culpa ut veniam. Expedita, beatae! Odit sint tempore nulla amet laboriosam recusandae nihil. Suscipit animi nostrum voluptate, dignissimos voluptatem voluptatibus impedit odio porro.
 </body>
 </html>
