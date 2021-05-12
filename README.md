@@ -1,6 +1,13 @@
+#### 20210512(수) 작업내역
+-git clone으로 프로젝트를 가져온 경우 아래 내용을 추가해주셔야합니다.
+-터미널에서 아래 2가지 실행
+- git config --local user.name 닉네임
+- git config --local user.email 이메일
+
+
 #### 20210511(화) 작업내역
 - 로렘 입숨 한글URL : http://guny.kr/stuff/klorem/#/dl-html
-- 로렘 입숨 영어URL : 
+- 로렘 입숨 영어URL : https://loremipsum.io/generator/
 - URL경로(path): /루트, /test/html5.html
 - html5의 레이아웃 구조 제작합니다.
 - 서버(응답하는프로그램=response) = 아파치서버,톰캣서버
