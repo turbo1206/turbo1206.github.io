@@ -4,6 +4,11 @@
 - RestAPI서버 중 코로나19 확진자 데이터를 받아서 html에서 파싱(데이터를 분해해서 화면에 뿌려주는 작업)
 - RestAPI서버주소 : https://coroname.me/getdata
 
+#### 20210514(금) 작업예정
+- 사용자단 모바일 메인페이지 footer 영역 CSS 입히기.
+- 과제를 제출 준비
+- 메인페이지에 자바스크립트(jQuery)적용. - 메뉴, 슬라이드이미지처리, top상단
+
 #### 20210513(목) 작업내역
 - 픽사베이 이미지 3개 : 로고1, 슬라이드 이미지1, NoImage1 받고 경로 적어놓기
 - 로고 : https://pixabay.com/ko/photos/%EC%95%84%EC%9D%B4%EC%8A%A4-%ED%81%AC%EB%A6%BC-%EB%94%94%EC%A0%80%ED%8A%B8-%EC%9D%8C%EC%8B%9D-1274894/
