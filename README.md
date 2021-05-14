@@ -5,6 +5,7 @@
 - RestAPI서버주소 : https://coroname.me/getdata
 
 #### 20210514(금) 작업예정
+- CSS3, HTML5 : 검사기준입니다.
 - 사용자단 모바일 메인페이지 footer 영역 CSS 입히기.
 - 과제를 제출 준비
 - jQuery Json 데이터 파싱 실습

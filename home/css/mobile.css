@@ -13,7 +13,7 @@ body{ /* body a 태그엔 적용이 안됩니다. */
 }
 dl, ol, ul {margin-bottom: 0 !important;}
 #container a:hover {color: #000 !important;} /* : 가상선택자, :: 가상요소 */
-a:link {color: 444;}
+a:link {color: #444;}
 a:hover {color: #fff !important;}
 a:visited {color: #444;}
 a {text-decoration: none;} /* 링크의 밑줄이 사라짐. */
