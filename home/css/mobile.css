@@ -386,7 +386,7 @@ footer {
 	color: #767676;
 }
 .snslink {
-	padding: static; /* 다른 태그를 기준으로 static은 고정 값, relative는 상대 값 */
+	padding:static; /* 다른 태그를 기준으로 static은 고정 값, relative는 상대 값 */
 	width: 210px;
 	margin: 10px auto; /* 10 상하 여백, auto 좌우 가운데 정렬 */
 }
