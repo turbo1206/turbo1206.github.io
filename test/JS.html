@@ -50,14 +50,14 @@
                         $('#board #tbody').append('<td>'+jsonOne.region+'</td>');
                         $('#board #tbody').append('</tr>');
                     }
-                    // 오리지널 For반복문 사용   
+                    // 오리지널 For반복문 사용
+                    // 2차원배열 변수[가로][세로] (표=데이터베이스DB의 테이블) 
                     var i = 0; // 인덱스 값 초기화
-                    for(ㅑ-0; i<jsonData.length; i++) {
-                        i = i + 1;
+                    for(i=0; i<jsonData.length; i++) {
                         if(i==10) {break;}
                         $('#board #tbody').append('<tr>');
-                        $('#board #tbody').append('<td style="text-align:center;">'+(i)+'</td>');
-                        $('#board #tbody').append('<td style="background-color:red">'+jsonData[i]['place']+'</td>');
+                        $('#board #tbody').append('<td style="text-align:center;">'+(i+1)+'</td>');
+                        $('#board #tbody').append('<td style="background-color:green">'+jsonData[i]['place']+'</td>');
                         $('#board #tbody').append('<td>'+jsonData[i]['latlng']+'</td>');
                         $('#board #tbody').append('<td>'+jsonData[i]['createDate']+'</td>');
                         $('#board #tbody').append('<td>'+jsonData[i]['region']+'</td>');
