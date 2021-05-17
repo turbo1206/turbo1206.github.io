@@ -45,11 +45,18 @@ $(document).ready(function() {
 		$('.li.seq a img').attr('src',$('li.seq a img').attr('src').replace('_on.png','_off.png'));
 	});
 	// 아래 결과는 현재 선택 된 슬라이드 이미지만 _on.png 타원으로 replace 바꾸는 명령
-	$('li.butt'+slideNum+' a img').attr('src',$('li.butt' +slideNum+'a img').attr('src').replace('_off.png', '_on.png'))
+	$('li.butt'+slideNum+' a img').attr('src',$('li.butt' +slideNum+' a img').attr('src').replace('_off.png','_on.png'))
     // slideNum조건 실행 아래 3가지 중 1가지는 항상 실행 됨
-	if(slideNum == 0) [
+	if(slideNum == 0) {
+		// 슬라이드 인덱스가 0번 일 때 li태그를 1초간 서서히 투명도를 0 처리
+        $('.viewImgList li.imglist1').animate({'opacity':0},1000); // 서서히 사라지기
+		$('.viewImgList li.imglist2').animate({'opacity':0},1000); // 서서히 사라지기
+		$('.viewImgList li.imglist0').animate({'opacity':1},1000); // 서서히 나타나기
+	}else if(slideNum == 1) {
+		
+	}else if(slideNum == 2) {
 
-	]//else if()
+	}
 });
 </script>
 </head>
