@@ -1,7 +1,8 @@
 #### 작업예정.
-- 메인페이지 테블릿 메인 CSS 스타일처리, PC용 메인 CSS 스타일처리
-- 수업시작전 유지윤씨 확인.
 - 메인페이지 테블릿 메인 CSS 스타일처리, PC용 메인 CSS 스타일처리(반응형으로 제작)
+- 반응형 페이지의 핵심기술은 미디어쿼리 명령어 사용, 가로크기를 100% (100px고정크기가 아닌 비율로 내부 컨텐츠 크기를 지정하는 방법)
+- 미디어(PC화면,스마트폰화면,프린터,태블릿화면) + 쿼리(질의어-질문)
+- @media 미디어 타입(screen, print 등등 = all) and (min-width : 801px) {구현내용}
 - 모바일 서브페이지 CSS 스타일처리
 - 테블릿+PC용 CSS 스타일처리
 - 모바일 게시판페이지(CRUD) CSS 처리
@@ -32,9 +33,9 @@
 - 8교시에 과제물 다음카페로 제출
 #### 20210513(목) 작업내역
 - 픽사베이 이미지 3개: 로고1, 슬라이드 이미지1, NoImage 1 받고, 경로 적어놓기
-- 로고: https://pixabay.com/ko/illustrations/%EC%86%90%EC%97%90-%EC%9E%88%EB%8A%94-%EB%A1%9C%ED%84%B0%EC%8A%A4-%EB%A1%9C%ED%84%B0%EC%8A%A4-1889661/
-- 슬라이드이미지: https://pixabay.com/ko/photos/%EA%BB%8D%EC%A7%88-%EB%AA%A8%EB%9E%98-%EB%B9%84%EC%B9%98-%EC%A1%B0%EA%B0%9C-%EB%AC%BC%EA%B0%80-792912/
-- no_img: https://pixabay.com/ko/vectors/%ED%94%8C%EB%9E%98%EA%B7%B8-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EA%B5%AD%EA%B8%B0-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-3029663/
+- 로고: https://pixabay.com/ko/photos/%EC%95%84%EC%9D%B4%EC%8A%A4-%ED%81%AC%EB%A6%BC-%EB%94%94%EC%A0%80%ED%8A%B8-%EC%9D%8C%EC%8B%9D-1274894/
+- 슬라이드이미지: https://pixabay.com/ko/photos/%ED%8C%8C%EB%85%B8%EB%9D%BC%EB%A7%88-%EC%97%AC%EB%A6%84-%EB%AA%A9%EC%B4%88%EC%A7%80-%ED%95%84%EB%93%9C-3629120/
+- no_img: https://pixabay.com/ko/vectors/%EA%B8%B0%ED%98%B8-%EC%97%86%EC%9D%8C-%EA%B8%88%EC%A7%80-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EA%B8%B0%ED%98%B8-39767/
 - 작업폴더를 나누는 이유: 시청(관공서), 대학, 기업의 웹프로그램(사이트) 제작 할때, 1년간 무상 유지보수 이후 보통 2천, 리뉴얼 4천 비용이 책정
 - home폴더 기존작업물, 리뉴얼 home에 덮어쓰는 방식이 아니고,
 - 리뉴얼 할때 home2022 폴더에 작업을 하시게 됩니다.
