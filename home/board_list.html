@@ -93,9 +93,12 @@ input::placeholder {color: #999;} /*IE(Internet Explore) 브라우저용 스타�
 	box-sizing: border-box;
 	height: 45px;
 }
-.bbsListTbl td a {
+.bbsListTbl td a { /* 모바일전용 */
 	overflow: hidden;
 	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	width: 320px;
 }
 /* //게시판리스트 영역 */
 /* 테블릿용 메인페이지 스타일 지정(아래) 801px~무한대까지 재정의 */
