@@ -13,8 +13,6 @@
 - (회원관리CRUD-html, 게시판생성관리CRUD바로-html)
 - 이클립스로 작업한 html 내용을 -> resources 폴더(admin,home,root파일까지)로 배치
 - 스프링 작업의 시작
--
--
 
 #### 20210527(목) 작업
 - admin/board_list.html 작업ok.
